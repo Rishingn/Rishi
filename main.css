@@ -592,6 +592,10 @@ hr {
         height:auto;
     }
 
+    #resume{
+        display:block;
+    }
+    
     .col_2{
         height:auto;
         overflow-y:hidden;
