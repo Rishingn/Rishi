@@ -197,10 +197,10 @@ hr {
     overflow-y:scroll;
 }
 
-#resume .display{
+.display{
     display:none;
 }
-#resume .display-delay{
+.display-delay{
     display:block;
 }
 
@@ -231,6 +231,10 @@ hr {
     left:5%;
     top:20px;
     z-index: -1;
+}
+
+#resume > h4{
+    text-align:center;
 }
 
 #resume .tag-line p{
@@ -375,11 +379,11 @@ hr {
 }
 
 #resume .sub-title .dev-desc .prog-1{
-    width:80%;
+    width:60%;
 }
 
 #resume .sub-title .dev-desc .prog-2{
-    width:60%;
+    width:50%;
 }
 
 #resume .sub-title .dev-desc .prog-3{
