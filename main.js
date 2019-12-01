@@ -5,6 +5,44 @@ function initEvents(){
     openBox.addEventListener("click", start);
     closeBox = document.querySelector(".close");
     closeBox.addEventListener("click", closeBook);
+    $(document)
+  .mousemove(function(e) {
+    $('.cursor')
+      .eq(0)
+      .css({
+        left: e.clientX,
+        top: e.clientY
+      });
+    setTimeout(function() {
+      $('.cursor')
+        .eq(1)
+        .css({
+          left: e.clientX,
+          top: e.clientY
+        });
+    }, 100);
+});
+
+$("#cl_3").hover(function(){
+  $(this).parent().parent().parent().prev().removeClass("cursor_2").addClass("cursor_3");
+},
+function(){
+$(this).parent().parent().parent().prev().removeClass("cursor_3").addClass("cursor_2");
+});
+
+$(".open").hover(function(){
+  $(this).parent().parent().parent().prev().removeClass("cursor_2").addClass("cursor_3");
+},
+function(){
+$(this).parent().parent().parent().prev().removeClass("cursor_3").addClass("cursor_2");
+});
+
+$(".projects-details").hover(function(){
+  $(this).parent().parent().parent().parent().parent().prev().removeClass("cursor_2").addClass("cursor_3");
+},
+function(){
+$(this).parent().parent().parent().parent().parent().prev().removeClass("cursor_3").addClass("cursor_2");
+});
 }
 
 function start(){
@@ -30,5 +68,6 @@ function closeBook(){
         },1000
     );
 }
+
 
 
