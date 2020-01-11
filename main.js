@@ -5,6 +5,7 @@ function initEvents(){
     openBox.addEventListener("click", start);
     closeBox = document.querySelector(".close");
     closeBox.addEventListener("click", closeBook);
+
     $(document)
   .mousemove(function(e) {
     $('.cursor')
