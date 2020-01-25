@@ -70,6 +70,7 @@ figure{
 h1{
     margin-top:0px;
 }
+
 hr {
     border:none;
     border-top:2px dashed #00ad74;
@@ -460,11 +461,6 @@ hr {
 
 #resume .sub-title .dev-desc .prog-7{
     width:40%;
-}
-
-
-#resume .sub-title .pers{
-
 }
 
 #resume .sub-title .pers .pers-det{
