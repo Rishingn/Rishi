@@ -436,15 +436,21 @@ hr {
 }
 
 #resume .sub-title .dev-desc .prog-1{
-    width:60%;
+    width:70%;
 }
 
 #resume .sub-title .dev-desc .prog-2{
-    width:50%;
+    width:70%;
 }
 
 #resume .sub-title .dev-desc .prog-3{
-    width:30%;
+    width:50%;
+}
+#resume .sub-title .dev-desc .prog-8{
+    width:55%;
+}
+#resume .sub-title .dev-desc .prog-9{
+    width:50%;
 }
 
 #resume .sub-title .dev-desc .prog-4{
