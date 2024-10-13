@@ -19,13 +19,13 @@ body{
   
   .cursor_1 {
     background-color: white;
-    height: 5px;
-    width: 5px;
-    z-index: 100;
+    height: 8px;
+    width: 8px;
+    z-index: 98;
   }
   
   .cursor_2 {
-    background-color: transparent;
+    background-color:#1b1c1c0a;
     height: 20px;
     width: 20px;
     border:2px solid #00AD74;
@@ -40,7 +40,8 @@ body{
   }
 
   ::-webkit-scrollbar {
-    width: 5px;
+    width: 10px;
+    padding-right: 5px;
   }
 
   ::-webkit-scrollbar-thumb {
@@ -337,8 +338,15 @@ hr {
     color:#00ad74;
 }
 
+#resume .sub-title .emp-details .years p{
+    color: #00AD74;
+    margin-top: 0px;
+    margin-left: 12px;
+    font-size: 18px;
+}
+
 #resume .sub-title .emp-details .years .line{
-    height:60px;
+    height:46px;
     width:1px;
     border-left:1px dashed #00ad74;
     transform: translateX(40px);
@@ -363,6 +371,10 @@ hr {
     color: white;
     margin-top:0px;
     margin-bottom:0px;
+}
+
+#resume .sub-title .company-details h2 {
+    margin-top: 30px;
 }
 
 #resume .sub-title .emp-desc h3{
@@ -447,10 +459,10 @@ hr {
     width:50%;
 }
 #resume .sub-title .dev-desc .prog-8{
-    width:55%;
+    width: 90%;
 }
 #resume .sub-title .dev-desc .prog-9{
-    width:50%;
+    width:90%;
 }
 
 #resume .sub-title .dev-desc .prog-4{
